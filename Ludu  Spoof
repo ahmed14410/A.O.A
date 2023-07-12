@@ -1,0 +1,37 @@
+'! That Bastard Is Trying To Steal Our Gold !':
+  installDir:
+    '! That Bastard Is Trying To Steal Our Gold !': {}
+  launch:
+    <base>/TDTTSOG.exe:
+      - when:
+          - os: windows
+            store: steam
+    <base>/TDTTSOGLinux.x86:
+      - when:
+          - bit: 32
+            os: linux
+            store: steam
+    <base>/TDTTSOGLinux.x86_64:
+      - when:
+          - bit: 64
+            os: linux
+            store: steam
+  registry:
+    HKEY_CURRENT_USER/SOFTWARE/WTFOMGames/That Dick Trying To Steal Our Gold:
+      tags:
+        - config
+        - save
+  steam:
+    id: 449940
+'!4RC4N01D!':
+  steam:
+    id: 777010
+'!4RC4N01D! 2: Retro Edition':
+  steam:
+    id: 791550
+'!4RC4N01D! 3: Cold Space':
+  steam:
+    id: 809370
+'!4RC4N01D! 4: Kohbeep Edition':
+  steam:
+    id: 824660
