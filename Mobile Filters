@@ -1,0 +1,7 @@
+!========== fandom.com ==========!
+! Remove Top Site Empty Space
+apkmirror.com#$##ezmob-wrapper { display: none !important; }
+apkmirror.com#$#html > body { padding-top: 0 !important; }
+!========== ign.com ==========!
+! Remove Chat Box
+ign.com##.article-page > section.jsx-537794787.box-wrapper
