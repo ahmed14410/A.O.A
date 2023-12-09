@@ -4,6 +4,14 @@ apkmirror.com#$##ezmob-wrapper { display: none !important; }
 apkmirror.com#$#html > body { padding-top: 0 !important; }
 apkmirror.com##.OUTBRAIN
 ||widgets.outbrain.com^$domain=apkmirror.com
+apkmirror.com#@#ins.adsbygoogle
+apkmirror.com#@#.adslot
+apkmirror.com##.ai_widget
+apkmirror.com##.google-ad-leaderboard
+apkmirror.com##.ains-apkm_outbrain_ad
+apkmirror.com##.ezo_ad
+apkmirror.com##div[id^="adtester-container-"]
+@@||apkmirror.com^$generichide
 !========== ign.com ==========!
 ! Remove Chat Box
 ign.com##.article-page > section.jsx-537794787.box-wrapper
